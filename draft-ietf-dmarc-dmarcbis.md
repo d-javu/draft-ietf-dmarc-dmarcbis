@@ -629,7 +629,7 @@ separated by colons (e.g., fo=0:d).  The valid values and their meanings are:
 
     1:
     : Generate a DMARC failure report if any underlying authentication
-      mechanism produced something other than an aligned "pass" result.
+      mechanism fail to produce an aligned "pass" result.
 
     d:
     : Generate a DKIM failure report if the message had a signature
